@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>About me</title>
+  <style>
+body{background-image: url(https://evisionthemes.com/wp-content/uploads/2020/12/pattern1-min.png);
+font-family:Papyrus, fantasy;
+}
+#move-to-the-left{
+  margin-right:1000px;
+  margin-left:50px;
+}
+.centre-okay{
+  text-align:center;
+  margin-left:800px;
+  margin-right:150px;
+  position:relative;
+  bottom:175px;
+}
+.the-real-centre{
+  text-align:center;
+  margin-left:450px;
+  position:relative;
+  top:50px;
+}
+.need-to-move-down{
+  position:relative;
+  top:100px;
+}
+#fixed-image{
+  float:left;
+  position:absolute;
+  top:470px;
+  left:50px;
+  position:fixed;
+}
+.second{
+  position:relative;
+  bottom:170px;
+  left:250px;
+}
+.third{
+  position:relative;
+  left:550px;
+  bottom:350px;
+}
+.fourth{
+  position:relative;
+  left:800px;
+  bottom:520px;
+}
+.need-to-move-up{
+  position:relative;
+  bottom:300px;
+  margin-right:1100px;
+}
+table,th,td{
+  border:2px solid rgb(77, 184, 255);
+}
+
+.border-s{
+  border:4px ridge rgb(77, 184, 255);
+    border-radius:10px;
+}
+.border{
+  border:4px ridge rgb(77, 184, 255);
+  border-radius:5px;
+  margin-top:47px;
+}
+.move{
+  margin-left:5px;
+}
+h1,h2{
+  font-size:30px;
+}
+.colourback{
+  background-color:rgb(224, 204, 255);
+  color:rgb(77, 184, 255);
+}
+#fill-the-blanks-okay{
+  float:right;
+  position:relative;
+  bottom:720px;
+  right:100px;
+}
+#title-yep{
+  float:right;
+  position:relative;
+  bottom: 3700px;
+  left:300px;
+}
+
+a:hover{
+  color:rgb(224, 204, 255);
+  background-color:rgb(77, 184, 255);
+}
+
+
+.dropbtn {
+  background-color:rgb(224, 204, 255);
+  color:blue;
+  padding: 16px;
+  font-size: 25px;
+  font-family:Papyrus, fantasy;
+  margin-left:50px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  margin-left:100px;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown:hover .dropbtn {
+  background-color:rgb(77, 184, 255);
+}
+
+
+  </style>
+  </head>
+  <body>
+  <h1 style="text-align:center; font-size:90px;"> My Story !</h1>
+  <p id="move-to-the-left" class="border-s">Greetings! My name is Tyla, and this is a page about me.<br>
+  <br>
+  I'm an avid book reader, music lover and movie-binger. I have many interest and hobbies such as volleyball, drawing, long-distance running and cooking. To start off with I'm going to introduce some of the books that have really shaped my life.</p>
+
+
+<div class="dropdown">
+  <button class="dropbtn">Content!</button>
+  <div class="dropdown-content">
+    <a href="#move">Go check out the table!</a><br>
+    <a href="#moving">Go check out the places I've been too!</a>
+  </div>
+</div>
+
+
+
+
+
+
+  <h2 class="centre-okay border-s">My favourite song at the moment...</h2>
+  <p class="centre-okay border-s"> But.. just before we get to that, play this song while you read through the webpage!<br>
+  My favourite song does change every once in a while, but I generally like slow-paced instrumental songs, but this one's an exception!<br>
+  <strong>Go ahead and watch it !</strong></p>
+  <iframe class="centre-okay" width="560" height="315" src="https://www.youtube.com/embed/amFoLQwb50k" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <!--I hope you enjoyed the song!-->
+
+  <h2 class="centre-okay border-s"> I've just come up with a list of words to describe this song. </h2>
+  <ul class="centre-okay border-s">
+    <li>Wonderous
+      <li>Breath taking
+        <li>Soothing
+          <li>Tranqil
+            <li>Melancholy
+            </ul>
+            <p class="centre-okay border-s"><em>Honestly, this list could go on forever, but I'll stop there.</em></p>
+
+
+<h2 class="the-real-centre"><strong>Life-shaping books</strong></h2>
+<table class="the-real-centre" id="move">
+<tr>
+<th><strong>Book Title</strong></th>
+<th><strong>Book image</strong></th>
+<th><strong>What's the book about?</strong> </th>
+</tr>
+<tr>
+<td> You are what you eat </td>
+<td><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328766964i/7845103._UY630_SR1200,630_.jpg" alt="You are what you eat book" width="200"></td>
+<td> It was a book I read as a kid, and I remembering being terrified by this, but it also made me open to a lot of foods that other people wouldn't eat.</td>
+</tr>
+<tr>
+<td>The catcher in the rye</td>
+<td><img src="https://www.booktopia.com.au/covers/big/9780140237504/0000/the-catcher-in-the-rye.jpg" alt="catching in the rye cover" width="200"></td>
+<td> I think it represented that letting go, relaxing and self care is important, even though you have many fears or problems that need to be solved.It made me a lot more comfortable with taking breaks and doing things at my own pace, and not rushing all the time.</td>
+</tr>
+<tr>
+<td>A song only I can hear</td>
+<td><img src="https://s3-ap-southeast-2.amazonaws.com/assets.allenandunwin.com/images/original/9781760630836.jpg" alt="A song only I can hear cover" width="200"></td>
+<td>It was a really meaningful book, and it made me be a lot more confident and conscious about my actions. It made me wonder what could happen if you took a leap of faith, and that's why I try to step outside my comfort zone as much as I can. Now I can finally say I'm a devoted Barry Jonsberg reader (not that I couldn't say it before), but I've read almost all his books, except one. Thisbook was also one of the first books I had asked the librarian to order for the school (confidence)!</td>
+</tr>
+<tr>
+<td>The professor and the housekeeper</td>
+<td><img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344313042l/3181564.jpg" alt="The professor and the housekeeper cover" width="200"></td>
+<td>It was the most recent and inspiring book I have read, and it made me think outside the box in many situations. The overall storyline and depth of characters was amazing, I would recommend it to everyone.</td>
+</tr>
+</table>
+
+
+
+  <h2 class="need-to-move-down border-s" id="moving"> Travel Destinations</h2>
+  <div class="border">
+            <p class="need-to-move-down">The final topic on my webpage is TRAVEL DESTINATIONS. Just a quick overview of the places I've been to, hopefully it alleviates some of the blandness from lockdown. </p>
+  <ol class="need-to-move-down">
+    <li>Vietnam<br>
+      <img src="https://images.theconversation.com/files/282901/original/file-20190705-51258-1v9hipo.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C3820%2C2544&q=45&auto=format&w=496&fit=clip" alt="vietnam street" width="200">
+    <li class="second">Japan<br>
+        <img src="https://afar-production.imgix.net/uploads/images/post_images/images/c6UKXNGxyg/original_c6deadcc6a37f73e89a467895418fb54.jpg?1526556391?ixlib=rails-0.3.0&auto=format%2Ccompress&crop=entropy&fit=crop&h=719&q=80&w=954" alt="Japan" width="200">
+        <li class="third">Queensland<br>
+          <img src="https://www.thoughtco.com/thmb/_1y6Ele8tjj9cPWEpqa1IrozUes=/2121x1414/filters:fill(auto,1)/GettyImages-1039545762-240a743205a44bcf93dde2730912c666.jpg" alt="Queensland" width="200">
+          <li class="fourth">Adelaide<br>
+              <img src="https://www.icadelaide.com.au/wp-content/uploads/2019/12/Hotel-exterior-1.jpg" alt="Adelaide" width="200">
+          </ol>
+        </div>
+<h3 class="need-to-move-up move colourback">Sources</h3>
+  <ul class="need-to-move-up move colourback">
+  <li><a href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328766964i/7845103._UY630_SR1200,630_.jpg">You are what you eat cover.</a>
+  <li><a href="https://www.booktopia.com.au/covers/big/9780140237504/0000/the-catcher-in-the-rye.jpg">The catcher in the rye cover.</a>
+  <li><a href="https://s3-ap-southeast-2.amazonaws.com/assets.allenandunwin.com/images/original/9781760630836.jpg">A song only I can hear cover.</a>
+<li><a href="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344313042l/3181564.jpg">The professor and the housekeeper.</a>
+<li><a href="https://images.theconversation.com/files/282901/original/file-20190705-51258-1v9hipo.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C3820%2C2544&q=45&auto=format&w=496&fit=clip">Vietnam image.</a>
+<li><a href="https://afar-production.imgix.net/uploads/images/post_images/images/c6UKXNGxyg/original_c6deadcc6a37f73e89a467895418fb54.jpg?1526556391?ixlib=rails-0.3.0&auto=format%2Ccompress&crop=entropy&fit=crop&h=719&q=80&w=954">Japan Image.</a>
+<li><a href="https://www.thoughtco.com/thmb/_1y6Ele8tjj9cPWEpqa1IrozUes=/2121x1414/filters:fill(auto,1)/GettyImages-1039545762-240a743205a44bcf93dde2730912c666.jpg">Queensland Image.</a>
+<li><a href="https://www.icadelaide.com.au/wp-content/uploads/2019/12/Hotel-exterior-1.jpg">Adelaide Image.</a>
+</ul>
+<div id="fixed-image">
+<img src="https://www.pikpng.com/pngl/b/524-5242164_sumikko-gurashi-png-transparent-sumikko-gurashi-characters-clipart.png" alt="dinosaur hugging dinosaur" width="350">
+</div>
+<div id="fill-the-blanks-okay">
+  <img src="https://i.pinimg.com/originals/62/53/45/6253458002dbef3483c8034dedbd32c1.gif" alt="two gurashis on swing" width="400">
+</div>
+<div id="title-yep">
+  <img src="https://cdn2.scratch.mit.edu/get_image/user/40818324_60x60.png" alt="many gurashissss" width="350">
+</div>
+
+
+
+
+  </body>
